@@ -1,0 +1,73 @@
+Phần 1: font END (36g) -> 12  buổi
+1.HTML>HTML 5 (3b)
+- Các thẻ cơ bản
+- table/form
+- các thẻ bố cự nội dung
+2. CSS-> CSS3 (3b)
+ - tương tác  CSS -> HTML5
+ - câc bộ chọn
+ - các thuộc tính thông dụng của CSS
+ - hệ màu
+ - Đơn vị 
+ - Nâng cao CSS3
+	+ Animation
+	+ Box
+	+ Transform
+- responsive design
+	
+3. Ngôn ngữ lập trình kịch bản Javascript (3b)
+- syntax: 
+- biến, hằng, toán tử, toán hạng
+	 biểu thứ, câu lênh, khối lệnh,...
+- I/O
+- Các cấu trúc điều khiển: 3 loại cấu trúc: 
+	+ loại 1: lựa chọn/ rẽ nhánh
+		++ cấu trúc if
+		++ cấu trức switch
+	+ loại 2: lặp (loop)
+		++ cấu trúc lặp for
+		++ cấuu trúc lặp while
+		++ cấu trức lặp do...while
+		++ cấu trúc lặp foreach
+	+ loại 3: lệnh nhảy
+		++ break;
+		++ continue;
+		++ return;
+- Mảng
+- Hàm
+- Object/ string
+-----------------------
+- DOM
+
+
+4. Thư viện jquery (1b)
+- cách sử dụng thư viện
+5. Framework Bootstrap (1b)
+-  cách tích hợp framework trong trang html
+6. Cắt/ ghép giao diện web (1b)
+- ()*.psd; *.ai/ figma; .xd;...) => html
+- công cụ photoshop
+==============================================	
+	- Giao diện website: 5-10(webpage)
+=========Công cụ và tài nguyên học tập=========
+- Công cụ:
+	++ visual code 2019
+	++ subline text 3
+	++ notepad
+- tài nguyên học tập
+	1. Slide
+	2. Labguides
+	3. Books
+- đọc silde trước mỗi buổi học
+- làm bài tập đầy đủ
+- PP:
+	++ LT: 25%
+	++ TH: 75%
+- HT: ít nhất x3 mỗi buổi
+->> mỗi ngày ít nhất 1-2h -> thời gian cố định là tốt nhất
+---->>>>  Minh chứng cho nhà tuyển dụng: 
+	- github: cá nhân
+	- google sheet
+	- dự án -> deployed trên devmaster
+	
+Phần 2: ReactJS(36h) 12 buổi

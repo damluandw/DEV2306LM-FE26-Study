@@ -1,0 +1,67 @@
+Chung Trịnh
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập hệ thống</title>
+    <style>
+        form {
+            margin:  1rem auto;
+            padding: 1rem;
+            width: 450px;
+            background-color: #ccc;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Đăng nhập hệ thống</h1>
+    <pre>
+        Form + table => form đăng nhập 
+        10'
+    </pre>
+    <form action="" name="frmLogin" id="frmLogin">
+        <table width="100%" border="1">
+            <tbody>
+                <tr>
+                    <td colspan="2" align="center">
+                        <img src="https://devmaster.edu.vn/images/logo.png" alt="Devmaster Academy">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Tài khoản:
+                    </td>
+                    <td>
+                        <input type="text" name="taiKhoan"  id="taiKhoan" placeholder="Nhập tài khoản...." required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mật khẩu:
+                    </td>
+                    <td>
+                        <input type="password" name="matKhau" id="matKhau" placeholder="Nhập mật khẩu" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="ckGhiNho" id="ckGhiNho">
+                        <label for="ckGhiNho">Ghi nhớ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Đăng nhập" name="btnDangNhap" id="btnDangNhap">
+                        <input type="reset" value="Làm lại" name="btnLamLai" id="btnLamLai">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

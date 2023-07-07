@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thẻ hiện thị hình ảnh</title>
+</head>
+<body>
+    <h1>Thẻ hiện thị hình ảnh</h1>
+    <hr>
+    <p>
+        Hà nội mùa thu
+        Câu cơm nguội vàng
+        cay bàng lá đổ
+    </p>
+    <pre>
+        Hà nội mùa thu
+        Câu cơm nguội vàng
+        cay bàng lá đổ
+        <hr>
+        -> Dùng thẻ img:
+            - Cac thuộc tính thường dùng: src, alt
+                 + src: URL (đường dẫn đến file ảnh)
+                 + alt: nội dung mô tả
+            - URL: có 2 loại đường chủ yếu
+                + URL tuyệt đối: 
+                    [giao thức]://domain/path_(folder/file)
+                    ví dụ: 
+                    https://devmaster.edu.vn/images/logo.png
+                + URL tương đối:
+                    ++ vào trong 1 thư mục:
+                        folderName/
+                    ++ ra ngoài 1 thư mục
+                        ../
+                        ../../
+            -target: Chỉ đích đến         
+    </pre>
+    <hr>
+    <h2>Sử dụng url tuyệt đối</h2>
+    <img src="https://devmaster.edu.vn/images/logo.png" alt="Devmaster">
+    <img src="https://devmaster.edu.vn/images/logo.png" alt="Devmaster"
+    style="width: 100px">
+
+<hr>
+<h2>Sử dụng url tương đối</h2>
+<img src="imgs/devmaster-tuyen-thuc-tap-sinh-chuyen-de-it.png" alt="devmaster-tuyen-thuc-tap-sinh-chuyen-de-it" style="width: 300px;">
+<img src="imgs/logo_hunre.png" alt="logo_hunre">
+
+
+
+
+
+
+</body>
+</html>

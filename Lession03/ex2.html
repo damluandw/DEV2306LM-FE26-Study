@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login information System</title>
+</head>
+<body>
+    <div class="form-login">
+        <form action="" method="post">
+            <div class="form-group">
+                <img src="imgs/logo.png" alt="logo">
+            </div>
+            <div class="from-group">
+                <label for="taiKhoan">Tài khoản</label>
+                <div>
+                    <input type="text" name="taiKhoan" id="taiKhoan" placeholder="Nhập tài khoản...">
+                    <span class="error" id ="errTK">(*)</span>
+                </div>
+            </div>     
+            <div class="from-group">
+                <label for="matKhau">Mật khẩu</label>
+                <div>
+                    <input type="password" name="matKhau" id="matKhau" placeholder="*********">
+                    <span class="error" id ="errMK">(*)</span>
+                </div>
+            </div>
+            <div class="from-group">  
+                <label for=""></label>            
+                <div>
+                    <input type="checkbox" name="ghiNho" id="ghiNho" >
+                    <label for="ghiNho">Ghi Nhớ</label>
+                </div>
+            </div>
+            <div class="from-group">
+                <label for=""></label>
+                <div>
+                    <input type="submit" name="btnSubmit" id="btnSubmit" value="Đăng nhập"
+                    class="btn btn-primary">
+                    <input type="reset" name="reset" id="reset" value="Làm lại"
+                    class="btn btn-secondary">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
