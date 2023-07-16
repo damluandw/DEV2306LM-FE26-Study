@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.d-flex{
+    display: flex;
+  
+}
+
+.item-level-1{
+    padding: 20px;
+    position: relative;
+}
+
+.bg-color-red{
+    background-color: red;
+}
+.color-white{
+    color: #fff;
+}
+
+.item-level-1:hover,
+.item-level-2:hover{
+    background-color: black;
+}
+.item-level-1:hover>.item
+,.item-level-2:hover>.item{
+    color: red;
+}
+.menu-level-2{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: blue;
+    width: 200px;
+}
+
+.item-level-1:hover .menu-level-2{
+    display: block;
+}
+.item-level-2{
+    padding: 16px;
+}
+
+@keyframes showDown {
+    0%{
+        top: 0%;
+        transform:  rotate(0);
+        opacity: 0;
+    }
+    50%{
+        top: 10%;
+        /* transform:  rotate(180deg); */
+    }
+    100%{
+        top: 100%;
+        transform:  rotate(360deg);
+        opacity: 1;
+    }
+}
+
+.item-level-1:hover .menu-level-2 {
+    display: block;
+    animation-name: showDown;
+    animation-duration: 10s;
+}
+
+@media only screen and (max-width: 600px) {
+    .list-level-1{
+        display: block;
+    }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .bg-max-500{
+        background-color: green ;
+    }
+}
+
+/* 
+    Đơn vị rem và em
+    1rem =100px
+    1em =100px
+    quuy ước
+    rem:  lấy theo font size  của element html
+    em: lấy theo font sau của element cha
+
+*/
+html{
+    font-size: 20px;
+    /* => 1rem =20px 
+        1em =20px
+    */
+}
