@@ -99,3 +99,9 @@ html{
         1em =20px
     */
 }
+.header{
+    font-size: 100px;
+    /* => 1rem =20px 
+        1em =100px trong element .nav-menu
+    */
+}
