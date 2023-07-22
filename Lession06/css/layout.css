@@ -10,13 +10,18 @@ html{
 }
 
 .d-flex{
-    display: flex;
+    display: flex !important;
     flex-wrap: wrap;
 }
 .justify-between{
     justify-content: space-between;
 }
-
+.justify-center{
+    justify-content: center;
+}
+.justify-left{
+    justify-content: left;
+}
 .w-10{
     width: 10%;
 }
@@ -25,6 +30,9 @@ html{
 }
 .w-20{
     width: 20%;
+}
+.w-25{
+    width: 25%;
 }
 .w-50{
     width: 50%;
@@ -82,7 +90,7 @@ html{
     
 }
 nav.menu{
-    position: absolute;
+    position: fixed;
     width: 75%;
     top: 0;
     left: 50%;

@@ -1,5 +1,5 @@
 .news-page{
-    margin: 5rem auto; 
+    margin: 8rem auto 1rem; 
     background-image: url(../imgs/background-tintuc.png);
     background-repeat:  no-repeat;
     background-size: cover;
@@ -38,4 +38,40 @@
         background-repeat:  repeat-y;
         background-size: contain;
     }
+}
+.new-page-number{
+    margin-top: 0.5rem;
+}
+.new-page-number .page{
+    border: 1px solid green;
+    padding: 0.2rem 0.4rem;
+    margin: 2rem 0.2rem 0rem 0.2rem;
+}
+footer{
+    background-color: rgb(241, 241, 231);
+    padding: 1.5rem 0;
+}
+.menu-footer{ 
+    width: 75%;
+    margin: 0 auto;   
+}
+.menu-footer h3{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    padding: 1rem 0 2rem;
+}
+.nav-footer li{
+    margin-bottom: 1rem;
+}
+.footer-left .phone{
+    margin-top: 1rem;
+}
+.footer-left .mail{
+    margin: 1rem 0;
+}
+.footer-right p{
+    margin: 0.5rem 0;
+}
+.icon span{
+    font-size: 1.2rem;
 }
