@@ -1,0 +1,9 @@
+responsive: turning
+lib: import trước các file css dev
+cấu trúc code:
+ page: nên dùng thẻ danh sách ul li
+ 
+
+ đặt tên và sử dụng element 
+ css cấu trúc common đến deltail
+ desgin 
