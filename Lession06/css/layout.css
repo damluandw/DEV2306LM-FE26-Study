@@ -73,7 +73,7 @@ html{
     left: 0.5rem;
     bottom: 0.4rem; 
 } 
-/* .list-item .item.active::after {
+.list-item .item.active::after {
     content: '';
     position: absolute;
     height: 0.25rem;
@@ -83,7 +83,7 @@ html{
     left: 0.5rem;
     bottom: 0.4rem;  
     display: block;
-}  */
+} 
 
 .header{
     position: relative;
